@@ -24,7 +24,7 @@ export default function Presentacion({Leg}){
                 <a href="https://github.com/ramirovega193" target="_blank"><div className="icon" id="Github">
                     <FaGithubSquare size={35}/>
                 </div></a>
-                <a href="" download="RamiroVegaCV"><div className="icon" id="CV">
+                <a href="/Ramiro_Vega.pdf" download="RamiroVegaCV"><div className="icon" id="CV">
                     <FaFileDownload size={35}/> {Leg ? "Download CV" : "Descargar CV"}
                 </div></a>
             </div>
