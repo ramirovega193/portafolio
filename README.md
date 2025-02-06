@@ -1,8 +1,6 @@
-# React + Vite
+# Ramiro Vega
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Soy Técnico en Informática Personal y Profesional, recibido en la Técnica 2 de San Nicolás, Argentina con destacados promedios y con una formación autodidacta en paralelo a mis estudios secundarios.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Mail: [ramirovega226@gmail.com]
+-Linkedin[https://www.linkedin.com/in/ramiro-vega-b463a6304/]
