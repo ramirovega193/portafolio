@@ -1,0 +1,23 @@
+:root{
+
+  --bg: #2B2B2B;
+  --bg-nv: #3D3D3D;
+  --bg-bx: #4F4F4F;
+  --txt: #fff;
+  --bl: #0066FF;
+  --ci: #00F7FF;
+  --gr: #2BEDB2;
+
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, sans-serif;
+
+}
+body{
+  background-color: var(--bg);
+}
+a{
+  text-decoration: none;
+}

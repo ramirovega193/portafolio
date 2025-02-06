@@ -1,0 +1,146 @@
+h1{
+    font-size: 56px;
+}
+.presen{
+    padding: 100px 15%;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.presen h2{
+    font-size: 36px;
+}
+.presen h3{
+    font-size: 24px;
+}
+h1 span{
+    color: var(--ci);
+}
+.presen h2 span{
+    color: var(--bl);
+}
+.presen h3 span{
+    color: var(--gr)
+}
+.presen .titles{
+    width: 61.8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.presen .titles .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.presen .titles .icons .icon{
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.presen .titles .icons .icon:hover{
+    color: var(--ci);
+}
+.presen .image{
+    width: 38.2%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid var(--ci);
+}
+
+.image img{
+    width: 100%;
+}
+
+
+@keyframes titulos {
+
+    from{
+        transform: translateY(-20px);
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes iconos {
+    
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+}
+
+
+#Nombre{
+    
+    animation: titulos 0.5s;
+
+}
+#Tecnico{
+    opacity: 0;
+    animation: titulos 0.7s forwards;
+    animation-delay: 0.5s;
+}
+#Dev{
+    opacity: 0;
+    animation: titulos 0.7s forwards;
+    animation-delay: 1s;
+}
+#Mail{
+    opacity: 0;
+    animation: iconos 1s forwards;
+    animation-delay: 1.2s;
+}
+#Linkedin{
+    opacity: 0;
+    animation: iconos 1s forwards;
+    animation-delay: 1.4s;
+}
+#Github{
+    opacity: 0;
+    animation: iconos 1s forwards;
+    animation-delay: 1.6s;
+}
+#CV{
+    opacity: 0;
+    animation: iconos 1s forwards;
+    animation-delay: 1.8s;
+}
+
+
+@keyframes imagen {
+    0%{
+
+        transform: translateY(-30px);
+        opacity: 0;
+
+    }
+    50%{
+
+        transform: translateY(30px);
+        opacity: 1;
+
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+#Imagen{
+    opacity: 0;
+    animation: imagen 1.5s forwards;
+    animation-delay: 0.5s;
+}

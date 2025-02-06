@@ -1,0 +1,101 @@
+.habil{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    color: var(--txt);
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.habil h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.habil h2 span{
+    color: var(--ci);
+}
+
+.habil .contBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.habil .contBox2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.habilBoxes{
+
+    display: flex;
+    gap: 30px;
+
+}
+.contHabilBoxes{
+
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.habilBoxes2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.habil .contHabilBoxes .contBox .box{
+    background-color: var(--bg-bx);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+}
+
+.habil .contHabilBoxes .contBox2 .box{
+
+    background-color: var(--bg-bx);
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+
+}
+
+
+#css .box:hover{
+    background-color: #006BC0;
+}
+#js .box:hover{
+    background-color: #F1DC55;
+}
+#html .box:hover{
+    background-color: #DD4B25;
+}
+#react .box:hover{
+    background-color: #00D8FF;
+}
+#git .box:hover{
+    background-color: #F05033;
+}
+#figma .box:hover{
+    background-color: #A25DFC;
+}
+#net .box:hover{
+    background-color: var(--ci);
+}
+#mant .box:hover{
+    background-color: var(--gr);
+}

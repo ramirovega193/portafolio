@@ -1,0 +1,94 @@
+.Proyec{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 100px;
+    gap: 70px;
+
+}
+
+.Proyec h2{
+    font-size: 36px;
+}
+.Proyec h2 span{
+    color: var(--gr);
+}
+
+.Proyec .contbox{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Proyec .box{
+    background-color: var(--bg-bx);
+    padding: 50px;
+    width: 70%;
+    border-radius: 30px;
+}
+.box .top{
+    border-bottom: 2px solid var(--txt);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.box .top .left{
+    width: 25%;
+    font-size: 24px;
+}
+.box .top .left img{
+    width: 100%;
+}
+.box .top .center{
+    width: 50%;
+    font-size: 28px;
+}
+
+.box .top .right{
+    width: 25%;
+    color: white;
+}
+.box .bottom .first{
+    padding: 50px 0px;
+    border-bottom: 2px solid var(--txt);
+}
+.box .bottom .end{
+    padding-top: 20px;
+}
+.miniBoxA{
+    width: 33.3%;
+    color: var(--txt);
+}
+.miniBox{
+    background-color: var(--bg-bx);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    gap: 10px;
+
+}
+.contMiniBox{
+    width: 70%;
+    display: flex;
+    gap: 10px;
+}
+.miniBox .imagen{
+    width: 100%;
+    border-top: 2px solid var(--txt);
+    border-bottom: 2px solid var(--txt);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.miniBox .imagen img{
+    width: 100%;
+    height: 100px;
+}
